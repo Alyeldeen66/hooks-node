@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-style: italic;
+  text-decoration: dashed;
+  justify-content: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +39,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.movie_card {
+  padding: 0 !important;
+  width: 22rem;
+  margin: 14px;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie_info {
+  color: #5e5c5c;
+  white-space: wrap;
+  height: 5rem;
+  overflow: hidden;
+  white-space: wrap;
+  text-align: center;
+}
+.container{
+  display: flex;
+}
+
+.grid-container{
+ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: center;
+  
 }
